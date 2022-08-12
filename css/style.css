@@ -1,0 +1,117 @@
+@font-face {
+	font-family: 'HelveticaNeueCyr-Light';
+	src: url('../fonts/helveticaneuecyr-light.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/helveticaneuecyr-light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/helveticaneuecyr-light.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/helveticaneuecyr-light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/helveticaneuecyr-light.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/helveticaneuecyr-light.svg#helveticaneuecyr-light') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'HelveticaNeueCyr-Medium';
+	src: url('../fonts/helveticaneuecyr-medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/helveticaneuecyr-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/helveticaneuecyr-medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/helveticaneuecyr-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/helveticaneuecyr-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/helveticaneuecyr-medium.svg#helveticaneuecyr-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body {
+    font-family: 'HelveticaNeueCyr-Light';
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 2480px;
+    margin: 0 auto;
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.photo img {
+width: 570px;
+object-fit: cover;
+height: 570px;
+border-radius: 50%;
+}
+
+.title h1{
+    font-family: 'HelveticaNeueCyr-Medium';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 170px;
+    line-height: 168px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #202020;
+}
+
+.title {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+hr {
+    border: solid #E8E8E8 ;
+    border-width: 0.2em;
+}
+
+.contacts {
+    width: 2080px;
+    height: 205px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-style: normal;
+font-weight: 300;
+font-size: 45px;
+line-height: 44px;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+display: flex;
+justify-content: center;
+text-align: center;
+line-height: 200px;
+
+color: #202020;
+}
+
+.number {
+    width:693px ;
+    height:195px ;
+    border-right: solid #E8E8E8;
+}
+
+.tel {
+color: #202020;
+
+}
+
+.email {
+    width: 692px;
+    height: 195px;
+    border-right: solid #E8E8E8;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+.mail {
+   
+}
+
+.city {
+    width: 689px;
+    height: 195px;
+}
