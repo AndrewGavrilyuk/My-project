@@ -27,8 +27,52 @@ h1,h2,h3,h4,h5,h6 {
     padding: 0;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'HelveticaNeueCyr-Medium';
+    font-style: normal;
+font-weight: 550;
+font-size: 50px;
+line-height: 49px;
+text-transform: uppercase;
+
+color: #202020;
+}
+
+h3 {
+    font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 40px;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+ul {
+    margin-top: 35px;
+    margin-bottom: 57px;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+li {
+    font-style: normal;
+font-weight: 300;
+font-size: 35px;
+line-height: 35px;
+
+color: #202020;
+}
+
 .container {
-    width: 2480px;
+    width: 2080px;
     margin: 0 auto;
 }
 
@@ -115,3 +159,190 @@ color: #202020;
     width: 689px;
     height: 195px;
 }
+
+.social_summary {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.social {
+    width: 693px;
+    height: 400px;
+    margin-top: 80px;
+}
+
+.social p {
+    line-height: 100px;
+    font-style: normal;
+font-weight: 300;
+font-size: 40px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+margin-left: 50px;
+
+color: #000000;
+}
+
+.social h2 {
+margin-bottom: 35px;
+}
+
+.all_logo {
+    height: 310px;
+    width: 90px;
+    margin: 0;
+}
+
+.logo {
+    width: 90px;
+}
+
+.instagram {
+    display: flex;
+}
+
+.git {
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+.linkedin {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+
+
+.summary {
+    margin-top: 80px;
+    margin-left: 51px;
+    width: 1336px;
+    height: 400px;
+}
+
+.summary p{
+    margin-top: 50px;
+    font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 101.3%;
+/* or 41px */
+
+text-transform: capitalize;
+
+color: #000000;
+}
+
+.w_skills_w_experience {
+    margin-top: 80px;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.w_skills {
+    width: 693px;
+    height: 510px;
+}
+
+.w_skills p {
+    line-height: 100px;
+    font-style: normal;
+font-weight: 300;
+font-size: 40px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+margin-left: 50px;
+
+color: #000000;
+}
+
+.w_skills h2 {
+margin-bottom: 35px;
+}
+
+.w_experience {
+    margin-left: 51px;
+}
+
+.w_experience h2 {
+    margin-bottom: 50px;
+}
+
+.language {
+    width: 695px;
+    margin-top: 100px;
+}
+
+.language h2 {
+    margin-bottom: 35px;
+}
+
+.language p {
+    line-height: 100px;
+    font-style: normal;
+font-weight: 300;
+font-size: 40px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+margin-left: 50px;
+
+color: #000000;
+}
+
+.english {
+    display: flex;
+}
+
+.ukrainian {
+    display: flex;
+    margin-top: 35px;
+}
+
+.russian {
+    display: flex;
+    margin-top: 35px;
+}
+
+.hobby_education {
+    display: flex;
+}
+
+.hobby {
+    width: 695px;
+    margin-top: 80px;
+}
+
+.hobby h2 {
+    margin-bottom: 35px;
+}
+
+.hobby p {
+    line-height: 100px;
+    font-style: normal;
+font-weight: 300;
+font-size: 40px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+margin-left: 50px;
+
+color: #000000;
+}
+
+.education {
+    width: 1336px;
+    margin-top: 80px;
+}
+
+.education h2 {
+    margin-bottom: 50px;
+}
+
+
+
+
