@@ -20,6 +20,13 @@
 
 body {
     font-family: 'HelveticaNeueCyr-Light';
+    -moz-transform: scale(0.4, 0.4); /* Moz-browsers */
+    zoom: 0.4; /* Other non-webkit browsers */
+    zoom: 40%; /* Webkit browsers */
+}
+
+a {
+    text-decoration: none;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -69,6 +76,11 @@ font-size: 35px;
 line-height: 35px;
 
 color: #202020;
+}
+
+.contacts a {
+    color: #202020;
+    text-decoration: none;
 }
 
 .container {
@@ -204,13 +216,13 @@ margin-bottom: 35px;
 
 .git {
     display: flex;
-    margin-top: 10px;
+    margin-top: 35px;
     
 }
 
 .linkedin {
     display: flex;
-    margin-top: 10px;
+    margin-top: 35px;
 
 }
 
@@ -262,6 +274,25 @@ color: #000000;
 
 .w_skills h2 {
 margin-bottom: 35px;
+}
+
+.html {
+    display: flex;
+}
+
+.css {
+    display: flex;
+    margin-top: 35px;
+}
+
+.github_s {
+display: flex;
+margin-top: 35px;
+}
+
+.figma {
+    display: flex;
+    margin-top: 35px;
 }
 
 .w_experience {
@@ -344,5 +375,17 @@ color: #000000;
 }
 
 
+.russian span {
+    text-decoration: line-through;
+}
+
+.music {
+    display: flex;
+}
+
+.rowing {
+    display: flex;
+    margin-top: 35px;
+}
 
 
