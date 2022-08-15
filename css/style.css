@@ -240,7 +240,7 @@ margin-bottom: 35px;
     font-style: normal;
 font-weight: 300;
 font-size: 40px;
-line-height: 101.3%;
+line-height: 140%;
 /* or 41px */
 
 text-transform: capitalize;
@@ -301,6 +301,10 @@ margin-top: 35px;
 
 .w_experience h2 {
     margin-bottom: 50px;
+}
+
+.company {
+    margin-top: 80px;
 }
 
 .language {
@@ -368,10 +372,16 @@ color: #000000;
 .education {
     width: 1336px;
     margin-top: 80px;
+    margin-left: 51px;
+    margin-bottom: 50px;
 }
 
 .education h2 {
     margin-bottom: 50px;
+}
+
+.education h3 {
+    margin-top: 25px;
 }
 
 
